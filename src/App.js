@@ -7,6 +7,7 @@ const App = () => {
   const incrementScore = () => {
     setScore(score + 1);
   };
+
   return (
     <div className="container">
       <ScoreBoard Score={score} />
