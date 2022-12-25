@@ -1,8 +1,10 @@
 import React from "react";
-const ScoreBoard = ({ Score }) => {
+const ScoreBoard = ({ Score, highScore }) => {
   return (
     <div className="container-fluid">
-      <h2>Score: {Score}</h2>
+      <h2>
+        Score: {Score} || Highscore: {highScore}
+      </h2>
     </div>
   );
 };
