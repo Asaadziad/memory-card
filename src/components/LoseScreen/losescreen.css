@@ -1,0 +1,6 @@
+.loseModal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(13, 13, 13, 0.8);
+  z-index: 1;
+}

@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
-const Card = ({ title, img, pokemon, onClick }) => {
+const Card = ({ title, img, onClick, pokemonArr }) => {
   return (
-    <div className="card Card" onClick={() => onClick(pokemon)}>
+    <div className="card Card" onClick={() => onClick(pokemonArr)}>
       <img className="card-img-top" src={img} alt={title}></img>
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
