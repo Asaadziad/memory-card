@@ -1,13 +1,11 @@
 import React from "react";
-const ScoreBoard = ({ Score, highScore }) => {
+const ScoreBoard = ({ Score, level, highScore }) => {
   return (
     <div className="container-fluid scoreContinaer">
       <div className="score">
         <h2>Score: {Score}</h2>
         <div className="action">
-          <button className="btn btn-primary visually-hidden">
-            Action here
-          </button>
+          <h2>Level: {level}</h2>
         </div>
         <h2>Highscore: {highScore}</h2>
       </div>

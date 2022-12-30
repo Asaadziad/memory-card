@@ -24,12 +24,7 @@ const Pokemons = ({ id, onClick, pokemonArr }) => {
 
   return (
     <>
-      <Card
-        title={pokemon.name}
-        img={pokemon.icon}
-        onClick={onClick}
-        pokemonArr={pokemonArr}
-      />
+      <Card title={pokemon.name} img={pokemon.icon} onClick={onClick} id={id} />
     </>
   );
 };
